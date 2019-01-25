@@ -1,12 +1,14 @@
 # Train-Scheduler
 
-Prompts the info to me submited using a form: 
+#When adding trains, administrators should be able to submit the following:
 -Train Name
--Destination
--First Train Time
--Frequency 
+-Destination 
+-First Train Time -- in military time
+-Frequency -- in minutes
 
-Data is stored using Firebase, in addition the time of the next train along with how many minutes away is computed and displayed.
+Code this app to calculate when the next train will arrive; it relative to the current time.
+Users from many different machines must be able to view same train times.
+
 
 #Tech Used:
 -Firebase
